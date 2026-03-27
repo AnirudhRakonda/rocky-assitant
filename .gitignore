@@ -1,0 +1,53 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+ENV/
+VENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Cache
+.pytest_cache/
+.coverage
+*.cover
+htmlcov/
+
+# Dependencies (if using local installs)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Audio files (for potential recordings)
+*.wav
+*.mp3
+*.flac
+
+# Ollama models cache (warning: large files)
+.ollama/
+
+# Project specific
+.rocky_cache/
+temp/
